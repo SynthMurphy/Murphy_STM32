@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -DHSE_VALUE 8000000 -DHSE_VALUE=8000000 -I..\..\..\workspace\Murphy_v1.1\semihosting -I..\..\..\workspace -I..\..\..\workspace\Murphy_v1.1\cmsis -I..\..\..\workspace\Murphy_v1.1 -I..\..\..\workspace\Murphy_v1.1\cmsis_boot -I..\..\..\workspace\Murphy_v1.1\cmsis_lib\include -I..\..\.. -I..\..\..\workspace\Murphy_v1.1\cmsis_lib">
+      <target file="stm32f4xx_gpio.o" lastModified="146ff3861fc">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146fd0a108d"/>
+      </target>
+      <target file="llist.o" lastModified="146ff385eac">
+         <source file="..\..\..\llist.c" lastModified="146fd6e0946"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="146ff385cb3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="146fd0a74e5"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="146ff385ef7">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="146fd09f431"/>
+      </target>
+      <target file="printf.o" lastModified="146ff3860ac">
+         <source file="..\..\..\stdio\printf.c" lastModified="146fd2097f3"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="146ff38626e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146ff331eba"/>
+      </target>
+      <target file="misc.o" lastModified="146ff3864b5">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="146fd0a5b81"/>
+      </target>
+      <target file="stm32f4_discovery_audio_codec.o" lastModified="146ff385d44">
+         <source file="..\..\..\stm32f4_discovery_audio_codec.c" lastModified="146ff19f558"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="146ff38633b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="146fd0a3d73"/>
+      </target>
+      <target file="midi.o" lastModified="146ff3865a8">
+         <source file="..\..\..\midi.c" lastModified="146fd8e7638"/>
+      </target>
+      <target file="synth.o" lastModified="146ff386195">
+         <source file="..\..\..\synth.c" lastModified="144101fee60"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="146ff3863c7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146fd0a2cb3"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="146ff386024">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146fd0a02f0"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="146ff385e3a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="146fd351c60"/>
+      </target>
+      <target file="wavetable.o" lastModified="146ff386517">
+         <source file="..\..\..\wavetable.c" lastModified="146fd434f0d"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="146ff386210">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="146fd09e4e8"/>
+      </target>
+      <target file="syscalls.o" lastModified="146ff3862c4">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="146fd09b391"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="146ff38645f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146fd0a2cc8"/>
+      </target>
+      <target file="semihosting.o" lastModified="146ff385c53">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="146fd09e4e7"/>
+      </target>
+      <target file="main.o" lastModified="146ff385f91">
+         <source file="..\..\..\main.c" lastModified="146ff3199a7"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="146ff385dcc">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="146fd0a4c05"/>
+      </target>
+   </processor>
+</history>
