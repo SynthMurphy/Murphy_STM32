@@ -21,7 +21,7 @@
     
 
 /*----------Stack Configuration-----------------------------------------------*/
-#define STACK_SIZE       0x00000200      /*!< The Stack size suggest using even number    */
+#define STACK_SIZE       0x00002000      /*!< Stack size (in Words)           */
 __attribute__ ((section(".co_stack")))
 unsigned long pulStack[STACK_SIZE];
 
@@ -140,7 +140,7 @@ extern void _eram;               /*!< End address for ram                     */
 
 /*----------Function prototypes-----------------------------------------------*/
 extern int main(void);           /*!< The entry point for the application.    */
-//extern void SystemInit(void);    /*!< Setup the microcontroller system(CMSIS) */
+extern void SystemInit(void);    /*!< Setup the microcontroller system(CMSIS) */
 void Default_Reset_Handler(void);   /*!< Default reset handler                */
 static void Default_Handler(void);  /*!< Default exception handler            */
 
@@ -154,7 +154,7 @@ __attribute__ ((used,section(".isr_vector")))
 void (* const g_pfnVectors[])(void) =
 {
   /*----------Core Exceptions------------------------------------------------ */
-  (void *)&pulStack[STACK_SIZE],     /*!< The initial stack pointer         */
+  (void *)&pulStack[STACK_SIZE-1],     /*!< The initial stack pointer         */
   Reset_Handler,             /*!< Reset Handler                               */
   NMI_Handler,               /*!< NMI Handler                                 */
   HardFault_Handler,         /*!< Hard Fault Handler                          */
@@ -296,6 +296,7 @@ void Default_Reset_Handler(void)
 #endif	
 
   /* Call the application's entry point.*/
+  SystemInit();
   main();
 }
 
