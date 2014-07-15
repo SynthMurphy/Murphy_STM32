@@ -1,17 +1,3 @@
-
-// PoMAD Synthol Synthetizer
-//
-// Laurent Latorre - Polytech Montpellier - 2013
-//
-// Microelectronics & Robotics Dpt. (MEA)
-// http://www.polytech.univ-montp2.fr/MEA
-//
-// Embedded Systems Dpt. (SE)
-// http://www.polytech.univ-montp2.fr/SE
-
-// Linked List function library header file
-
-
 #include "stm32f4xx_gpio.h"
 #include "stm32f4xx_rcc.h"
 #include "stm32f4xx_usart.h"

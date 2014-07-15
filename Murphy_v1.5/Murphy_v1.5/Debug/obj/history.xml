@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\workspace\Murphy_v1.5\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\Murphy_v1.4\src -I..\..\..\workspace\Murphy_v1.5 -I..\..\..\workspace\Murphy_v1.5\cmsis -I..\..\..\workspace\Murphy_v1.5\cmsis_boot -I..\..\..\workspace\Murphy_v1.4 -I..\..\..\workspace\Murphy_v1.5\cmsis_lib\include">
+      <target file="stm32f4xx_gpio.o" lastModified="1472318ea02">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146ff580fe7"/>
+      </target>
+      <target file="llist.o" lastModified="1472318e2de">
+         <source file="..\..\..\..\Murphy_v1.4\src\llist.c" lastModified="14721a92406"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="1472318df93">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1471b950ab5"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1472318e32d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="144101fee60"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1472318ea80">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="144101fee60"/>
+      </target>
+      <target file="printf.o" lastModified="1472318e836">
+         <source file="..\..\..\stdio\printf.c" lastModified="144101fee60"/>
+      </target>
+      <target file="misc.o" lastModified="1472318eda4">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="146ff58b9d4"/>
+      </target>
+      <target file="stm32f4_discovery_audio_codec.o" lastModified="1472318e0b7">
+         <source file="..\..\..\..\Murphy_v1.4\src\stm32f4_discovery_audio_codec.c" lastModified="144101fee60"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="1472318eb98">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="146ff58836d"/>
+      </target>
+      <target file="synth.o" lastModified="147231bb5a7">
+         <source file="..\..\..\..\Murphy_v1.4\src\synth.c" lastModified="147231bb228"/>
+      </target>
+      <target file="midi.o" lastModified="1472318eeb6">
+         <source file="..\..\..\..\Murphy_v1.4\src\midi.c" lastModified="14722b140e7"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="1472318ec51">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146ff58831e"/>
+      </target>
+      <target file="parameters.o" lastModified="1472318e657">
+         <source file="..\..\..\..\Murphy_v1.4\src\parameters.c" lastModified="1471bd83e8f"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1472318e4e3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146ff57f93e"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="1472318e248">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="146ff604120"/>
+      </target>
+      <target file="wavetable.o" lastModified="1472318edf9">
+         <source file="..\..\..\..\Murphy_v1.4\src\wavetable.c" lastModified="146ff613935"/>
+      </target>
+      <target file="syscalls.o" lastModified="1472318ead7">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="146ff5755e9"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="1472318ed37">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146ff58835e"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1472318e1a6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="146ff589aaa"/>
+      </target>
+      <target file="main.o" lastModified="1472318e3d6">
+         <source file="..\..\..\..\Murphy_v1.4\src\main.c" lastModified="1472308b135"/>
+      </target>
+   </processor>
+</history>

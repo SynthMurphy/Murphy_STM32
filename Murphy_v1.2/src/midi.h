@@ -1,14 +1,3 @@
-
-// PoMAD Synthol Synthetizer
-//
-// Laurent Latorre - Polytech Montpellier - 2013
-//
-// Microelectronics & Robotics Dpt. (MEA)
-// http://www.polytech.univ-montp2.fr/MEA
-//
-// Embedded Systems Dpt. (SE)
-// http://www.polytech.univ-montp2.fr/SE
-
 #define MIDI_BUFFER_LENGTH		64
 
 

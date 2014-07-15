@@ -1,16 +1,3 @@
-
-// PoMAD Synthol Synthetizer
-//
-// Laurent Latorre - Polytech Montpellier - 2013
-//
-// Microelectronics & Robotics Dpt. (MEA)
-// http://www.polytech.univ-montp2.fr/MEA
-//
-// Embedded Systems Dpt. (SE)
-// http://www.polytech.univ-montp2.fr/SE
-
-
-
 // Cutoff filter knob LUT
 
 const float_t cutoff_CC[] ={
