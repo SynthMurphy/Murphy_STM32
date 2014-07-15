@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.4 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -g -nostartfiles -Map=Murphy_v1.7.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Murphy_v1.7 -TC:\CooCox\CoIDE\configuration\ProgramData\Murphy_v1.7/arm-gcc-link.ld -g">
+      <target file="Murphy_v1.7.elf" lastModified="147381d3b7c">
+         <source file="..\obj\stm32f4_discovery_audio_codec.o" lastModified="1473806f650"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1473806f75b"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="1473806f89a"/>
+         <source file="..\obj\llist.o" lastModified="14738075ffc"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1473806f9af"/>
+         <source file="..\obj\main.o" lastModified="147381c538c"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1473806fb89"/>
+         <source file="..\obj\parameters.o" lastModified="14738076194"/>
+         <source file="..\obj\printf.o" lastModified="1473806fe14"/>
+         <source file="..\obj\synth.o" lastModified="147381d3978"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1473806ffe6"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1473807007c"/>
+         <source file="..\obj\syscalls.o" lastModified="147380700e3"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="147380701b5"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="14738070274"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="14738070366"/>
+         <source file="..\obj\misc.o" lastModified="147380703df"/>
+         <source file="..\obj\wavetable.o" lastModified="1473807043d"/>
+         <source file="..\obj\midi.o" lastModified="147380764a8"/>
+      </target>
+   </processor>
+</history>
