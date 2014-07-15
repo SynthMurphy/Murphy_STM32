@@ -39,7 +39,7 @@
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="146ff57f93a">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
-      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\synth.h" lastModified="14738076043">
+      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\synth.h" lastModified="1473a99af08">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
@@ -70,7 +70,7 @@
       </source>
       <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\main.h" lastModified="144101fee60">
       </source>
-      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\parameters.c" lastModified="14737c8881b">
+      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\parameters.c" lastModified="1473a99ee6e">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
          <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\llist.h"/>
@@ -88,9 +88,9 @@
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\parameters.h"/>
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\synth.h"/>
       </source>
-      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\cc_lut.h" lastModified="147170fa166">
-      </source>
       <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="146ff577e66">
+      </source>
+      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\cc_lut.h" lastModified="147170fa166">
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="146ff58836d">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
@@ -116,11 +116,11 @@
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
-      <source file="..\..\..\syscalls\syscalls.c" lastModified="146ff576589">
-      </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146ff58831e">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="146ff576589">
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="146ff58835a">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
