@@ -5,7 +5,7 @@
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
-      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\llist.h" lastModified="14735544b12">
+      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\llist.h" lastModified="1473b25d6f5">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
@@ -22,7 +22,7 @@
       <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="14737aed553">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
-      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\llist.c" lastModified="14735efa620">
+      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\llist.c" lastModified="1473bd950bf">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\llist.h"/>
       </source>
@@ -78,7 +78,7 @@
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\synth.h"/>
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\cc_lut.h"/>
       </source>
-      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\main.c" lastModified="147380e0039">
+      <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\main.c" lastModified="1473bddd2af">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
          <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\stm32f4_discovery_audio_codec.h"/>
@@ -88,9 +88,9 @@
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\parameters.h"/>
          <include file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\synth.h"/>
       </source>
-      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="146ff577e66">
-      </source>
       <source file="C:\CooCox\CoIDE\workspace\Murphy_v1.6\src\cc_lut.h" lastModified="147170fa166">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="146ff577e66">
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="146ff58836d">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
@@ -116,11 +116,11 @@
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="146ff576589">
+      </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146ff58831e">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\syscalls\syscalls.c" lastModified="146ff576589">
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="146ff58835a">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
